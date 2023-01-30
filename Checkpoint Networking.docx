@@ -11,4 +11,7 @@ Browser renders the content.
 5-
 TCP divides the data received from the application layer into segments and attaches a header to each segment.
 
-Segment headers contain sender and recipient ports, segment ordering information, and a data field known as a checksum
+Segment headers contain sender and recipient ports, segment ordering information
+
+OSI resends packets as necessary and manages the rate at which packets are sent. This is essentially the operating system.
+2. The data link wraps each packet into a network frame, and sends it over the physical link to the next switch or router that the computer is connected to.
